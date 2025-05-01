@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 # --- Step 0: Setup ---
 OUTPUT_DIR = "section5/output"
-INPUT_PATTERN = "section2/output/feature_engineered_data/part-*.csv"
+INPUT_PATTERN = "../section2/output/feature_engineered_data/part-*.csv"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # --- Step 1: Load all feature-engineered CSVs ---
